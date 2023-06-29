@@ -1,20 +1,16 @@
-import { Component } from 'react';
-
-
-
-export class App extends Component = () => {
+export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        // alignItems: 'center',
         fontSize: 40,
         color: '#010101'
       }}
     >
-      homework template
+      React homework template
     </div>
   );
 };
