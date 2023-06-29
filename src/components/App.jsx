@@ -1,4 +1,8 @@
-export const App = () => {
+import React, { Component } from 'react';
+
+
+
+export class App extends Component = () => {
   return (
     <div
       style={{
@@ -10,7 +14,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      homework template
     </div>
   );
 };
