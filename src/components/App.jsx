@@ -44,14 +44,14 @@ export class App extends Component {
           fontSize: 40,
           color: '#010101',
         }}
-      >111
+      >
+
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={['Good', 'Neutral', 'Bad']}
             onLeaveFeedback={this.handleFeedback}
           />
         </Section>
-        222
 
         <Section title="Statistics">
           {this.totalFeedback() !== 0 ? (
@@ -66,7 +66,7 @@ export class App extends Component {
             <Notification message="There is no feedback"></Notification>
           )}
         </Section>
-        333
+
       </div>
     );
   }
