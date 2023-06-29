@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Statistics } from './Statistics/Statistics';
-// import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
-// import { Section } from './Section/Section';
+import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
+import { Section } from './Section/Section';
 // import { Notification } from './Notification/Notification';
 
 export class App extends Component {
@@ -45,14 +45,14 @@ export class App extends Component {
           color: '#010101',
         }}
       >777
-        {/* <Section title="Please leave feedback">
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={['Good', 'Neutral', 'Bad']}
             onLeaveFeedback={this.handleFeedback}
           />
         </Section>
 
-        <Section title="Statistics">
+        {/* <Section title="Statistics">
           {this.totalFeedback() !== 0 ? (
             <Statistics
               good={this.state.good}
